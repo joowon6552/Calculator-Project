@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".isfjActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/isfj">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="의무 수행자"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I:내적인 에너지를 가지고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S:사실과 현실에 충실하며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:다른 사람을 돕는 일에 집중하고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="J:모든 일에 책임감을 가지고, 제 시간에 처리한다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="무대 뒤에서 일하기를 좋아하며 의무에 충실하고 복종을 잘 하는 이들은 자신을 희생하며 남을 도와 주변에 안정감을 준다.부모로서 가장 책임감이 강해 인생 전체를 헌신하며 늘 보호자로서 행동한다. 책임감이 많아 걱정도 많으며 불평도 많은 이들은 다른 사람들이 느낄까에 관심이 많다. 이들은 의무감에서 벗어나고 싶어도 양심에 가책을 느껴 기꺼이 일을 떠맡는다. 노는 것도 계획을 세워서 논다. 이 유형의 남성은 자신의 여성적인 성격을 감추기 위해 오히려 더 거친 듯 행동할 수도 있다. 이들의 배우자는 이렇게 말할지도 모른다. “20년 동안 헌신한 것은 고맙지만 당신도 가끔은 화도 내고 게으름을 피우면 좋겠어” 배우자의 말처럼 지나친 의무감에서 벗어나 가끔은 제 목소리도 내고 게으름도 피우면서 서로 행복할 수 있다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_isfj"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

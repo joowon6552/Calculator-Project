@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".infpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/infp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="탐구가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I:자신과 인생에 대한 충분한 내적성찰을 통해"
+            android:layout_marginLeft="40sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N:많은 답을 알고 있고"
+            android:layout_marginLeft="40sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:자기의 잠재력이 어떠한 도움을 줄 수 있을지 생각하며"
+            android:layout_marginLeft="40sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:끊임없이 새로운 정보를 받아들이는 데 열려 있다."
+            android:layout_marginLeft="40sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="내적인 조화로움과 가치가 중요한 이상주의자 중의 이상주의자로, 자신의 가치에 진정으로 부합되는 일을 하고 싶어 한다. 자신의 정체성을 찾아 평생 ‘나는 누구이며 나의 삶은 어디로 향해 가는가?’라는 질문을 한다. 이들이 내향적이고 감정적인 기질로, 속으로 고민하고 결론을 내리면, 평소와는 다르게 단호해져서 주변을 당황스럽게 한다. 이들은 자신의 복잡함(겉으론 유한데 속으론 충동적인)과 내적인 스트레스로 여유를 찾지 못하면 몸과 마음이 아프다.
+
+이런 유형들은 배우자로서 상대방을 잘 이해해주고 격려하는데 탁월한 재능이 있는데, 본인은 그것을 모른 채 자신이 아무런 도움도 안 될 거라고 생각하면서 표현을 잘 안 한다. 그러나 그 생각을 깨고 배우자에게 조언과 감사의 말을 마음껏 해주기 바란다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_infp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

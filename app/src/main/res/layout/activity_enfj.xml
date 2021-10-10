@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".enfjActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/enfj">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="교육가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:시선이 사람들을 향해 있고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N:상상력과 영감으로"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:사람들의 필요와 동기를 이해하는데 뛰어나고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="J:잘 조직하고 효과적으로 실현한다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="사람들에게 동기 부여를 잘하고 부드럽게 설득을 잘해 믿을만한 리더라고 인정받는다. 활달하고 열정적이며 본능적으로 대중의 마음을 빨리 읽기 때문에 사람들을 잘 이끈다. 이들은 사람들과 누구보다도 잘 어울리는 반면 그 때문에 상처도 잘 받고 좌절도 많이한다. 이 유형 여성들은 자녀들을 잘 보살피고 양육한다. 그러나 집밖에서 리더십을 발휘해야 할 경우엔 자신의 영역을 넘어서 남자 동료들과 갈등을 일으킬 수도 있다. 이 유형의 남자는 매력이 넘친다. 그러나 말만 잘한다는 비판을 받을 수도 있다. 결혼생활을 하다보면 배우자는 종종 당신과 다른 의견을 갖고 있을 수도 있다. 그럴 때 그걸 너무 개인적으로 받아들여 상처받지 말고, 배우자가 동의하지 않을 수도 있다는 여지를 갖고 살면 더 행복할 수 있다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_enfj"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

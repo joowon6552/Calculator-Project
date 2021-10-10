@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".esfpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/esfp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="엔터테이너"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:손에 잡히는 행동을 먼저하고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S:가능성 보다는 실제로 무엇이 일어나는가를 보며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:사물의 긍정적인 면을 보고 주변을 즐겁게 만들며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:타고난 잠재력과 순발력을 이용해 현재를 산다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="16가지 유형 중에서 순간적으로 무엇이 필요한지를 가장 잘 파악한다. 일단 행동하고 보자는 주의로, 이들의 행동에는 처음에는 거친 듯이 보이지만 알고 보면 주변을 예민하게 잘 보살피며 친절하고 재미있고 협동심이 많다. 모든 일에 관심이 많고 남에게 확실한 도움을 줄 때 만족해한다. 즉각적인 보상이 없는 일이나 순서와 절차를 지켜서 하는 일에 약하고 실용적인 일에 탁월한 능력을 발휘한다. 지극히 현실주의자라서 개념의 세계에 들어가면 길을 잃는다. 여러 가지 일을 동시에 할 수 있으며 스포트라이트를 받는다. 가장 관대하고 여러 사람의 필요를 충족시키는 데 능한 이들은 일을 하다가 쉽게 삼천포로 빠지기 때문에 정작 배우자가 원하는 일상적인 필요를 채워주지 못하는 경우가 많다. 이 점은 배우자에게 큰 스트레스가 될 수도 있으므로 주의하기 바란다.">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_esfp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

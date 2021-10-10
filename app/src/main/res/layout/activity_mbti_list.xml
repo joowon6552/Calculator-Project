@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".mbtiList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/pic1"
+        android:tag="1"
+        android:clickable="true">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/enfj"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/imgbtn_enfj"
+            android:adjustViewBounds="true" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENFJ"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육가">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/pic2"
+        android:tag="2"
+        android:clickable="true">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/enfp"
+            android:id="@+id/imgbtn_enfp"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENFP"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="열정가"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/pic3"
+        android:tag="3"
+        android:clickable="true">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/entj"
+            android:id="@+id/imgbtn_entj"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTJ"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사령관"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/pic4"
+        android:tag="4"
+        android:clickable="true">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/entp"
+            android:id="@+id/imgbtn_entp"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTP"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="발명가"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next1"
+        android:padding="10dp"
+        android:text="NEXT">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/btn_gotocalculator1"
+        android:text="계산기로 가기">
+
+    </Button>
+
+</LinearLayout>

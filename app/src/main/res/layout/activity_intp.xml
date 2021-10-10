@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".intpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/intp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="건축가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I:내적인 성찰로"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N:자신에게 주어진 가능성을 찾고자 하며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T:모든 정보를 개관적으로 분석하여"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:문제를 탁월하게 해결해낸다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="객관적이고 논리적인 이들은 관심분야가 아니면 초연하고, 특별히 관심 있는 분야에서는 탁월한 능력을 보인다. 이 유형의 아이들은 수줍어하면서도 자기 주장을 논리적으로 거침없이 말한다. 학교에서 느닷없이 주제와 관계없이 보이는 질문을 하는 것은 자기만의 사고가 있기 때문이다. 어렸을 때 공부에 관심이 없던 이들도 나이가 들고 대학에 가면 자신의 꿈을 이루며 무슨 과목이 되었든지 배우는 기쁨을 얻는다. 삶에 대한 끊임없는 탐구와 지적인 도전을 하고 내면적으로 이론화하려 한다. 사물의 이면을 보는 태도 때문에 사회에서는 이유형의 여자를 전통적인 여성상으로 보지 않는다. 배우자에게 사랑을 표현하려할 때 생각하기 시작하면 오히려 전달 과정에서 오해를 살 수 있으므로, 차라리 분석하지 말고 그냥 느끼는 대로 사랑을 고백하는 것이 좋다.">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_intp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

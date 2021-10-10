@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".estjActiviy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgbtn_estj"
+            android:src="@drawable/estj">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="행정가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:외부의"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S:세상을 있는 그대로 보며"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T:이를 객관적으로 인지하고"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="J:주변의 구조와 스케줄, 순서를 판단한다."
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="보이는 대로 말하고, 있는 그대로가 전부인 이들은 주도적이고 매사에 답을 가지고 있는 것처럼 보인다. 직접적이고 즉각적인 실행력과 타고난 행정력이 있는 이들은, 누구에게나 의지가 되어 자연스럽게 조직의 행정을 맡게 된다. 이들의 관심사는 집, 가족, 부모의 역할 등이다. 가족도 관리할 대상으로 보기 때문에 배우자나 자녀들이 견디기 힘들 때도 많다16가지 유형 중에서 가장 전통적인 남성 유형에 속하는 이들은 군림하는 남성 스타일이다.
+
+이런 유형의 배우자라면 상대에게 “잘했어!기특해!”라는 식의 건조한 말이나 등을 한 번 쳐주는 식의 애정표현을 하기 보다는 때로는 그냥 조건 없는 사랑을 부드럽게 표현해주는 것도 좋을 것이다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_estj"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

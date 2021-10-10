@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".estpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/estp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="프로모우터"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:관심 밖으로 향하고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S:관찰력이 뛰어나서 실제적인 정보를 얻으며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T:얻어진 정보를 객관적으로 분석하지만"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:동시에 새로운 가능성도 생각한다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="당면문제를 잘 해결하고 모든 일이 결론에서 벗어나지 않도록 초점을 잘 맞춘다. 긴 설명이나 직접 관련이 없는 이론은 딱 싫어하고, 무슨 일이 생기든 그것을 즐긴다. 이들은  할 일이 넘치는 행동형 실용주의자이다. 호기심이 많고 날카로운 관찰력을 가졌으나 형식에 얽매이지 않고 관대하다. 방을 치우는 것 같은 의미 없는 일상은 시간낭비라고 생각하며 특별히 찾아야 할 물건이 있어서 방을 치운다.
+
+배우자로서 이들은 예측할 수 없는 행동으로 상대방을 흥분케 하고 놀라게 한다. 그러나 상대방이 늘 그것을 좋아하는 것은 아니므로 때로는 제 시간에 도착도 하고, 다소 지겹게 여겨지는 일도 해보고, 전통적인 가족행사에 참여하는 등 안정된 상황을 만들어보는 것도 부부 행복에 도움이 될 것이다.">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_estp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_drag_handle_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_baseline_sync_24.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_enfj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_enfp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_entj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_entp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_esfj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_esfp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_estj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_estj_activiy.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_estp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_infj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_infp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_intj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_intp.xml" value="0.264" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_isfj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_isfp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_istj.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_istp.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_mbti_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_mbti_list2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_mbti_list3.xml" value="0.2390625" />
+        <entry key="..\:/Users/joowo/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_mbti_list4.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

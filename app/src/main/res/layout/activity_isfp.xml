@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".isfpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/isfp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="예술가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I:조용하고 보존적이며"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S:실제적이고 현실을 잘 파악하고"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:민감하고 따뜻하고 잘 보살피며"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:열려 있고 유연하다"
+            android:layout_marginLeft="80sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="다른 사람을 이끌고 다스리기보다는 조화를 위해 주로 다른 사람의 의견을 따른다. 조용하면서도 따뜻하고 민감하다. 미적 감각이 뛰어나서 손재주도 좋고 창조적이며 눈썰미가 있어 실제적인 봉사를 잘 한다. 여유있게 살면서도 활동적이고 실리적이다. 현재의 순간을 누리고 당면한 일에 관심이 있기 때문에 추상적인 개념에는 별 관심이 없다. 일을 계획하기보다는 뭔가 깜짝 놀랄 일을 기대한다.
+
+이들은 애정표현을 할 때 말로 하면 그 가치가 떨어질 것 같아 뭔가 눈에 보이고 손에 잡히는 것으로 하려고 한다. 즉, 요리를 해주거나 옷을 사주는 것이다. 하지만 가끔은 말이나 글로 사랑을 표현해보는 것도 부부금슬에 좋을 것이다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_isfp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

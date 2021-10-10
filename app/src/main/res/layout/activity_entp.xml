@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".entpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/entp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="발명가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:밖으로 향하고 개방적이며"
+            android:layout_marginLeft="50sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N:풍부한 직관으로 가능성의 세계를 열어주고"
+            android:layout_marginLeft="50sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T:객관적인 결정 능력과 합쳐져서"
+            android:layout_marginLeft="50sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:이미 되어 있는 것을 하기보다 새로운 것을 추구한다."
+            android:layout_marginLeft="50sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="이들은 끝내지 않은 일로 주변 사람들을 걱정시키기도 하지만, 다른 사람을 잘 이해하고 영리하며 인간관계가 넓고 선동을 잘 한다. 새롭고 도전적인 문제를 풍부한 아이디어로 풀어나가지만 일상에 소홀할 수 있다. 사물의 이면을 잘 찾아내고 흥미로운 분야가 자주 바뀔 수 있다. 모든 사고형의 여자들이 그렇듯이 특히 이 유형의 여자들은 타고난 열정과 위트, 경쟁심과 논쟁으로 남의 눈에 잘 띈다. 특히 전통적인 여성들의 세계에선 위험인물이 된다. 그러나 나이가 들면 내적인 성찰을 통해 꽃 향기를 맡는 등 부드럽고 정서적인 면도 개발된다. 배우자로서는 집안의 사소한 일들을 보면서 더 좋은 시스템을 만들어 한꺼번에 해결하겠다고 생각하기보다는 지금 해야 할 일을 당장하는 노력이 필요하다.">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_entp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

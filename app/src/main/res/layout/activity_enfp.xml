@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".enfpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10sp"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/enfp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="열정가"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E:모든 일은 세상과의 상호관계로 이루어지며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N:온갖 가능성으로 열린 세상을 보고"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F:사람들 안에서 이룰 일이라고 해석하며"
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P:어떤 경우에도 다양한 가능성을 본다."
+            android:layout_marginLeft="60sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="이들은 늘 다른 사람들의 격려와 칭찬이 필요하며 그걸 원한다. 열정과 영감이 넘치는 이들은 상상력이 풍부하고 흥미를 끄는 것은 무엇이든 하지만, 일을 수행해가는 과정에서 지루하거나 반복되는 부분이 생기면 곧 흥미를 잃기도 한다. 자신뿐만 아니라 다른 사람들에 대해서도 너무나 많은 가능성을 보기 때문에 사람들은 이들의 카리스마에 이끌린다. 하지만 충동적이라 일을 이루려면 조직력과 행정력을 개발해야 한다. 남자들의 세계에 잘 들어가지 못하는 이 유형의 남자들은 남자답다는 인정을 받기 위해 더 경쟁적이고 논쟁적이며 거친 운동을 하려 든다. 틀에 박힌 일을 하거나 사람들을 틀에 넣는 것에 저항한다. 이들의 삶의 주제는 자기표현이다. 결혼생활에서 현재의 갈등이 싫어 미래의 꿈이나 상상의 세계로 도망가지 말고 배우자와 함께 당면한 문제를 풀려고 노력해야 한다.">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10sp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_before_enfp"
+            android:text="BEFORE">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
